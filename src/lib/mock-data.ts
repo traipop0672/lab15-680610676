@@ -75,5 +75,5 @@ export const currentStudent = students.find(
 export const currentUser = {
   nickname: "Ice",
   role: "STUDENT" as "STUDENT" | "ADMIN",
-  avatar: "/public/profile.jpg", // วางรูปไว้ที่ public/
+  avatar: "./public/profile.jpg", // วางรูปไว้ที่ public/
 };
